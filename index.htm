@@ -8,7 +8,7 @@
 <style>
   .container {
     padding: 0;
-    background: #dce0e0;
+    background: #ffffff;
     margin-left: 30px ;
   }
 
@@ -31,14 +31,21 @@
     text-decoration: none;
     padding: 7px;
     color: #333;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-style: solid; border-color: #1cdd21;
+    border-width: 1px;
+    
   }
   ul.menu li a.active {
-    background: #68c672;  
+    background: #1cdd21;  
     color: #000;
   }
   ul.menu li a:not(.active):hover {
     opacity: 0.5;
     transition: .8s;
+    background:  #dadfdf;  
   }
   .content {
     font-size: 14px;
@@ -48,6 +55,7 @@
     display: none;
     background: #fff;
     color: #000;
+    
   }
   .content.active {
     display: block;
